@@ -52,4 +52,6 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }        
     });
+
+    location.href.replace(/\/\?.*/,'')
 });
