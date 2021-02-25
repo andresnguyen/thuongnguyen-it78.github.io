@@ -52,6 +52,6 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }        
     });
-
-    location.href.replace(/\/\?.*/,'')
+    history.pushState({}, null, location.href.replace(/\/\?.*/,''))
+    
 });
