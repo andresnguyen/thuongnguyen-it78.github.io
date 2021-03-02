@@ -112,6 +112,9 @@
     footer p {
         text-align: left;
     }
+    .logo { 
+        height: 60px;
+    }
     
 }
 
