@@ -108,6 +108,10 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+    .social-links {display:none}
+    footer p {
+        text-align: left;
+    }
     
 }
 
@@ -117,5 +121,6 @@
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
+    
 }
 
